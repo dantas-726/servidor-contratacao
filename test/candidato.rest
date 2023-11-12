@@ -1,0 +1,28 @@
+GET http://localhost:8080/api/candidato
+
+###
+
+GET http://localhost:8081/api/candidato/2
+
+###
+
+POST http://localhost:8081/api/candidato
+Content-Type: application/json
+
+{
+    "nome": "Daniele",
+    "idade": 90
+}
+
+###
+PUT http://localhost:8081/api/candidato
+Content-Type: application/json
+
+{
+    "id": 1,
+    "nome": "testaaaaaa",
+    "contato": "teste@teste.com",
+    "habilidades": "teste teste",
+    "status": "Não contratado",
+    "contratacao_data": "Não contratado"
+}

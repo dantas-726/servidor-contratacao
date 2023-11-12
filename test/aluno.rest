@@ -1,0 +1,15 @@
+GET http://localhost:8081/api/aluno
+
+###
+
+GET http://localhost:8081/api/aluno/2
+
+###
+
+POST http://localhost:8081/api/aluno
+Content-Type: application/json
+
+{
+    "nome": "Daniele",
+    "idade": 90
+}
